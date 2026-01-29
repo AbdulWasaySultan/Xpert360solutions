@@ -16,6 +16,21 @@ buildscript {
         classpath("com.facebook.react:react-native-gradle-plugin")
         classpath("org.jetbrains.kotlin:kotlin-gradle-plugin")
     }
+
+    subprojects {
+    afterEvaluate { project ->
+        project.configurations.all {
+            resolutionStrategy.eachDependency { details ->
+                // Force old support libraries to AndroidX equivalents
+                if (details.requested.group == 'com.android.support') {
+                    details.useVersion "1.0.0" // dummy version; Jetifier will migrate
+                    details.because "Migrating support libraries to AndroidX"
+                }
+            }
+        }
+    }
+}
+
 }
 
 apply plugin: "com.facebook.react.rootproject"
