@@ -9,21 +9,33 @@
 /* Begin PBXBuildFile section */
 		0C80B921A6F3F58F76C31292 /* libPods-Xpert360Solutions.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-Xpert360Solutions.a */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		1CE136CBAF7E41269F8193DF /* ClashDisplayBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 421B981AD7C74CED9EF27D61 /* ClashDisplayBold.otf */; };
+		2F73FAC8351248919DEEE4B2 /* ClashDisplayRegular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8523D7186AEA4EA3ADACDFE7 /* ClashDisplayRegular.otf */; };
 		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		A93293FBCB7C4AA0B7CA0FE3 /* ClashDisplaySemibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 96EBFC77F8E64715A41FCBD8 /* ClashDisplaySemibold.otf */; };
+		ADAE34F0651647FB883B6109 /* ClashDisplayMedium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0CFD74F2845A490EB6B7B825 /* ClashDisplayMedium.otf */; };
+		BB5AE0EC098C4DC88EE081E2 /* ClashDisplayLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = D6D15DA0222645D1A9D18AAF /* ClashDisplayLight.otf */; };
+		D0476EA2E15F43EEAD485542 /* ClashDisplayExtralight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 87AB293DFAE94169AA1A6BF4 /* ClashDisplayExtralight.otf */; };
 		D0F99A9DFB300F505546CD72 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0CFD74F2845A490EB6B7B825 /* ClashDisplayMedium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = ClashDisplayMedium.otf; path = ../src/assets/fonts/ClashDisplayMedium.otf; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* Xpert360Solutions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Xpert360Solutions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Xpert360Solutions/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Xpert360Solutions/Info.plist; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = Xpert360Solutions/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-Xpert360Solutions.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Xpert360Solutions.debug.xcconfig"; path = "Target Support Files/Pods-Xpert360Solutions/Pods-Xpert360Solutions.debug.xcconfig"; sourceTree = "<group>"; };
+		421B981AD7C74CED9EF27D61 /* ClashDisplayBold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = ClashDisplayBold.otf; path = ../src/assets/fonts/ClashDisplayBold.otf; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-Xpert360Solutions.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Xpert360Solutions.release.xcconfig"; path = "Target Support Files/Pods-Xpert360Solutions/Pods-Xpert360Solutions.release.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-Xpert360Solutions.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Xpert360Solutions.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Xpert360Solutions/AppDelegate.swift; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Xpert360Solutions/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8523D7186AEA4EA3ADACDFE7 /* ClashDisplayRegular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = ClashDisplayRegular.otf; path = ../src/assets/fonts/ClashDisplayRegular.otf; sourceTree = "<group>"; };
+		87AB293DFAE94169AA1A6BF4 /* ClashDisplayExtralight.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = ClashDisplayExtralight.otf; path = ../src/assets/fonts/ClashDisplayExtralight.otf; sourceTree = "<group>"; };
+		96EBFC77F8E64715A41FCBD8 /* ClashDisplaySemibold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = ClashDisplaySemibold.otf; path = ../src/assets/fonts/ClashDisplaySemibold.otf; sourceTree = "<group>"; };
+		D6D15DA0222645D1A9D18AAF /* ClashDisplayLight.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = ClashDisplayLight.otf; path = ../src/assets/fonts/ClashDisplayLight.otf; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -60,6 +72,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		6581831B7DBB47D99ABF31A8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0CFD74F2845A490EB6B7B825 /* ClashDisplayMedium.otf */,
+				8523D7186AEA4EA3ADACDFE7 /* ClashDisplayRegular.otf */,
+				96EBFC77F8E64715A41FCBD8 /* ClashDisplaySemibold.otf */,
+				421B981AD7C74CED9EF27D61 /* ClashDisplayBold.otf */,
+				D6D15DA0222645D1A9D18AAF /* ClashDisplayLight.otf */,
+				87AB293DFAE94169AA1A6BF4 /* ClashDisplayExtralight.otf */,
+			);
+			name = Resources;
+			path = "";
+			sourceTree = "<group>";
+		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -75,6 +101,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				6581831B7DBB47D99ABF31A8 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -161,6 +188,12 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				D0F99A9DFB300F505546CD72 /* PrivacyInfo.xcprivacy in Resources */,
+				ADAE34F0651647FB883B6109 /* ClashDisplayMedium.otf in Resources */,
+				2F73FAC8351248919DEEE4B2 /* ClashDisplayRegular.otf in Resources */,
+				A93293FBCB7C4AA0B7CA0FE3 /* ClashDisplaySemibold.otf in Resources */,
+				1CE136CBAF7E41269F8193DF /* ClashDisplayBold.otf in Resources */,
+				BB5AE0EC098C4DC88EE081E2 /* ClashDisplayLight.otf in Resources */,
+				D0476EA2E15F43EEAD485542 /* ClashDisplayExtralight.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

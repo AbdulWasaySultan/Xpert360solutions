@@ -51,5 +51,16 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+	<key>UIAppFonts</key>
+	<array>
+		<string>ClashDisplayMedium.otf</string>
+		<string>ClashDisplayRegular.otf</string>
+		<string>ClashDisplaySemibold.otf</string>
+		<string>ClashDisplayBold.otf</string>
+		<string>ClashDisplayLight.otf</string>
+		<string>ClashDisplayExtralight.otf</string>
+	</array>
+	<key>LSApplicationCategoryType</key>
+	<string>UIAppFonts</string>
 </dict>
 </plist>
