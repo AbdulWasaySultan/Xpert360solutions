@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C80B921A6F3F58F76C31292 /* libPods-Xpert360Solutions.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-Xpert360Solutions.a */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		18BC78ECF53FC503F28AA104 /* libPods-Xpert360Solutions.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DCEB91D243E25A0D1C7D03F1 /* libPods-Xpert360Solutions.a */; };
 		1CE136CBAF7E41269F8193DF /* ClashDisplayBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 421B981AD7C74CED9EF27D61 /* ClashDisplayBold.otf */; };
 		2F73FAC8351248919DEEE4B2 /* ClashDisplayRegular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8523D7186AEA4EA3ADACDFE7 /* ClashDisplayRegular.otf */; };
 		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
@@ -26,16 +26,16 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Xpert360Solutions/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Xpert360Solutions/Info.plist; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = Xpert360Solutions/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		3B4392A12AC88292D35C810B /* Pods-Xpert360Solutions.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Xpert360Solutions.debug.xcconfig"; path = "Target Support Files/Pods-Xpert360Solutions/Pods-Xpert360Solutions.debug.xcconfig"; sourceTree = "<group>"; };
 		421B981AD7C74CED9EF27D61 /* ClashDisplayBold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = ClashDisplayBold.otf; path = ../src/assets/fonts/ClashDisplayBold.otf; sourceTree = "<group>"; };
-		5709B34CF0A7D63546082F79 /* Pods-Xpert360Solutions.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Xpert360Solutions.release.xcconfig"; path = "Target Support Files/Pods-Xpert360Solutions/Pods-Xpert360Solutions.release.xcconfig"; sourceTree = "<group>"; };
-		5DCACB8F33CDC322A6C60F78 /* libPods-Xpert360Solutions.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Xpert360Solutions.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Xpert360Solutions/AppDelegate.swift; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Xpert360Solutions/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8523D7186AEA4EA3ADACDFE7 /* ClashDisplayRegular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = ClashDisplayRegular.otf; path = ../src/assets/fonts/ClashDisplayRegular.otf; sourceTree = "<group>"; };
 		87AB293DFAE94169AA1A6BF4 /* ClashDisplayExtralight.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = ClashDisplayExtralight.otf; path = ../src/assets/fonts/ClashDisplayExtralight.otf; sourceTree = "<group>"; };
 		96EBFC77F8E64715A41FCBD8 /* ClashDisplaySemibold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = ClashDisplaySemibold.otf; path = ../src/assets/fonts/ClashDisplaySemibold.otf; sourceTree = "<group>"; };
+		A891B878A4B598B078BDB796 /* Pods-Xpert360Solutions.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Xpert360Solutions.debug.xcconfig"; path = "Target Support Files/Pods-Xpert360Solutions/Pods-Xpert360Solutions.debug.xcconfig"; sourceTree = "<group>"; };
+		B1361874AB9D080A960C94AE /* Pods-Xpert360Solutions.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Xpert360Solutions.release.xcconfig"; path = "Target Support Files/Pods-Xpert360Solutions/Pods-Xpert360Solutions.release.xcconfig"; sourceTree = "<group>"; };
 		D6D15DA0222645D1A9D18AAF /* ClashDisplayLight.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = ClashDisplayLight.otf; path = ../src/assets/fonts/ClashDisplayLight.otf; sourceTree = "<group>"; };
+		DCEB91D243E25A0D1C7D03F1 /* libPods-Xpert360Solutions.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Xpert360Solutions.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -44,7 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C80B921A6F3F58F76C31292 /* libPods-Xpert360Solutions.a in Frameworks */,
+				18BC78ECF53FC503F28AA104 /* libPods-Xpert360Solutions.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,7 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5DCACB8F33CDC322A6C60F78 /* libPods-Xpert360Solutions.a */,
+				DCEB91D243E25A0D1C7D03F1 /* libPods-Xpert360Solutions.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -119,8 +119,8 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3B4392A12AC88292D35C810B /* Pods-Xpert360Solutions.debug.xcconfig */,
-				5709B34CF0A7D63546082F79 /* Pods-Xpert360Solutions.release.xcconfig */,
+				A891B878A4B598B078BDB796 /* Pods-Xpert360Solutions.debug.xcconfig */,
+				B1361874AB9D080A960C94AE /* Pods-Xpert360Solutions.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -132,13 +132,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Xpert360Solutions" */;
 			buildPhases = (
-				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				FD7D68F117517092908A18C2 /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
-				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+				F26052C209D54332E957F64C /* [CP] Embed Pods Frameworks */,
+				12B5B82F784D437F9D84827F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -216,7 +216,24 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"$REACT_NATIVE_PATH/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"$REACT_NATIVE_PATH/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"\\\"$WITH_ENVIRONMENT\\\" \\\"$REACT_NATIVE_XCODE\\\"\"\n";
 		};
-		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+		12B5B82F784D437F9D84827F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Xpert360Solutions/Pods-Xpert360Solutions-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Xpert360Solutions/Pods-Xpert360Solutions-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Xpert360Solutions/Pods-Xpert360Solutions-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F26052C209D54332E957F64C /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -233,7 +250,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Xpert360Solutions/Pods-Xpert360Solutions-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+		FD7D68F117517092908A18C2 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -255,23 +272,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Xpert360Solutions/Pods-Xpert360Solutions-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Xpert360Solutions/Pods-Xpert360Solutions-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Xpert360Solutions/Pods-Xpert360Solutions-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -288,7 +288,7 @@
 /* Begin XCBuildConfiguration section */
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-Xpert360Solutions.debug.xcconfig */;
+			baseConfigurationReference = A891B878A4B598B078BDB796 /* Pods-Xpert360Solutions.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -316,7 +316,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-Xpert360Solutions.release.xcconfig */;
+			baseConfigurationReference = B1361874AB9D080A960C94AE /* Pods-Xpert360Solutions.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;

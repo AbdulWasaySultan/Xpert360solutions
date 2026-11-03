@@ -80,17 +80,18 @@ const styles = StyleSheet.create({
 
     paddingVertical: 6,
     paddingHorizontal: 10,
+    marginHorizontal: 5,
     alignSelf: 'flex-start',
 
     flexGrow: 0,
     flexShrink: 0,
 
-    borderWidth: 1,
+    // borderWidth: 1,
     // borderColor: 'yellow',
   },
   priority: {
     color: '#ffffff',
     fontWeight: '600',
-    fontSize: FontType.medium,
+    fontSize: FontType.small2,
   },
 });

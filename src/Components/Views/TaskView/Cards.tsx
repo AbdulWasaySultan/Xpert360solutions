@@ -19,9 +19,13 @@ type CustomTabBarNavigationProp = NativeStackNavigationProp<
   'CustomTabBar'
 >;
 
-export default function Cards() {
+interface CardProps {
+  title: string;
+  description: string;
+}
 
-  const navigation = useNavigation<CustomTabBarNavigationProp>()
+export default function Cards({ title, description }: CardProps) {
+  const navigation = useNavigation<CustomTabBarNavigationProp>();
   const tasks = [
     { id: 1, task: 'Attendance App' },
     { id: 1, task: 'task2' },
@@ -77,7 +81,10 @@ export default function Cards() {
           </View>
 
           <View style={styles.taskActions}>
-            <TouchableOpacity style={styles.commentBox} onPress={() => navigation.navigate('CustomTabBar')}>
+            <TouchableOpacity
+              style={styles.commentBox}
+              onPress={() => navigation.navigate('CustomTabBar')}
+            >
               <Image
                 source={require('../../../assets/images/comment.png')}
                 style={styles.icon2}
@@ -95,9 +102,7 @@ export default function Cards() {
               <Text style={styles.commentText}>5 Jan</Text>
             </View>
 
-            <View
-              style={styles.attachmentBox}
-            >
+            <View style={styles.attachmentBox}>
               <Image
                 source={require('../../../assets/images/pin.png')}
                 style={styles.icon3}
@@ -115,40 +120,45 @@ export default function Cards() {
 
 const styles = StyleSheet.create({
   cardsContainer: {
-    width: '94%',
-    // backgroundColor: 'green',
-    justifyContent: 'center',
+    width: '85%',
+    backgroundColor: 'pink',
+    // justifyContent: 'center',
     alignItems: 'center',
     alignSelf: 'center',
     // flexGrow : 1,
-    flex: 1,
+    // flex: 1,
   },
   card: {
     borderRadius: 20,
-    backgroundColor: '#2C2C2C',
+    // backgroundColor: '#2C2C2C',
+    backgroundColor: 'yellow',
+
     width: '100%',
     // height: 200,
     flexGrow: 0.1,
     justifyContent: 'space-evenly',
     alignItems: 'center',
+    marginVertical: 10,
+    paddingVertical: 12,
+    // paddingHorizontal: 16,
   },
   taskButtonsView: {
-    // backgroundColor: 'pink',
+    // backgroundColor: 'blue',
 
     flexDirection: 'row',
     justifyContent: 'space-around',
     alignSelf: 'stretch',
   },
   taskInfoView: {
-    // backgroundColor: 'grey',
-
-    justifyContent: 'center',
+    backgroundColor: 'grey',
     alignItems: 'flex-start',
-    gap: 5,
-    width: '92%',
+    marginVertical: 10,
+    paddingVertical: 8,
+    width: '100%', // 👈 Sets the width to 100% of the parent card
+    alignSelf: 'center', // 👈 Centers it horizontally within the card
   },
   taskName: {
-    fontSize: FontType.xlarge,
+    fontSize: FontType.large2,
     fontWeight: '600',
     color: '#FFFF',
   },
@@ -169,7 +179,7 @@ const styles = StyleSheet.create({
     borderTopWidth: 1,
     borderTopColor: '#FFFFFF10',
     flexDirection: 'row',
-    marginBottom : -10
+    marginBottom: -10,
   },
   imageContainer: {
     // backgroundColor: 'pink',
@@ -179,7 +189,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     paddingHorizontal: 20,
     height: 40,
-    marginTop : 4
+    marginTop: 4,
     // width: 90,
   },
   users: {
@@ -195,19 +205,19 @@ const styles = StyleSheet.create({
     justifyContent: 'flex-end',
     alignItems: 'flex-start',
     flexDirection: 'row',
-    gap : 11,
-    marginRight : 4
+    gap: 11,
+    marginRight: 4,
   },
   icon: {
     width: 20.5,
     height: 20.5,
   },
-  icon2 : {
-      width: 18,
+  icon2: {
+    width: 18,
     height: 18,
   },
-  icon3 : {
-      width: 20,
+  icon3: {
+    width: 20,
     height: 20,
   },
 
@@ -216,28 +226,28 @@ const styles = StyleSheet.create({
 
     flexDirection: 'row',
     justifyContent: 'space-around',
-    alignItems :'center',
-    gap : 5,
-    marginTop: 2
+    alignItems: 'center',
+    gap: 5,
+    marginTop: 2,
   },
   commentText: {
     color: '#FFFFFF56',
-    fontSize : 15,
-    fontWeight : '600'
+    fontSize: 15,
+    fontWeight: '600',
   },
-  dateBox :{
-    flexDirection : 'row',
-    justifyContent : 'space-around',
-    alignItems :'center',
+  dateBox: {
+    flexDirection: 'row',
+    justifyContent: 'space-around',
+    alignItems: 'center',
     // backgroundColor : 'red',
-        gap : 5,
-        marginTop : 0.5
+    gap: 5,
+    marginTop: 0.5,
   },
   attachmentBox: {
     flexDirection: 'row',
     justifyContent: 'space-around',
-    alignItems : 'center',
-    gap : 3,
+    alignItems: 'center',
+    gap: 3,
     // backgroundColor: 'red',
     // width : 70,
     // height : 30

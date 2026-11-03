@@ -17,6 +17,9 @@ import {
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import { FontType } from '../Components/Constants/FontType';
 import { Dimensions } from 'react-native';
+import DateBox from '../Components/Buttons/DateBox';
+import TaskBottomSheet from '../Components/Bottomsheet';
+import Cards from '../Components/Views/TaskView/Cards';
 const { width, height } = Dimensions.get('window');
 const isSmallScreen = width < 420;
 
@@ -25,9 +28,9 @@ type HomeScreenNavigationProp = NativeStackNavigationProp<
   'HomeScreen'
 >;
 
-
 export default function HomeScreen() {
   const navigation = useNavigation<HomeScreenNavigationProp>();
+  const cards = [1, 2, 3, 4, 5]; // Example array of cards
   return (
     <Container>
       <View style={styles.header}>
@@ -48,7 +51,10 @@ export default function HomeScreen() {
 
       <View style={styles.checkInScheduleContainer}>
         <Text style={styles.time}>09 : 15 : 05</Text>
-        <TouchableOpacity style={styles.checkInButton} onPress={() => navigation.navigate('Components')}>
+        <TouchableOpacity
+          style={styles.checkInButton}
+          onPress={() => navigation.navigate('Components')}
+        >
           <Image
             style={styles.checkInArrow}
             source={require('../assets/images/checkIn.png')}
@@ -57,10 +63,22 @@ export default function HomeScreen() {
           <Text style={styles.checkinText}>Check-In</Text>
         </TouchableOpacity>
       </View>
-      </Container>
-      )
-  }
 
+      <DateBox />
+
+      <TaskBottomSheet>
+        {cards.map((item, index) => (
+          <View key={item} style={styles.dummyCard}>
+            <Cards
+              title={`Task ${index + 1}`}
+              description={`Description for Task ${index + 1}`}
+            />
+          </View>
+        ))}
+      </TaskBottomSheet>
+    </Container>
+  );
+}
 
 const styles = StyleSheet.create({
   bgLogo: {
@@ -136,6 +154,10 @@ const styles = StyleSheet.create({
     color: '#FFFFFF',
     fontWeight: '800',
     fontSize: FontType.medium2,
+  },
+  dummyCard: {
+    backgroundColor: 'pink',
+    flexGrow: 1,
   },
 });
 //https://api.fontshare.com/v2/css?f[]=clash-display@200,300,400,500,600,700&display=swap" rel="stylesheet
